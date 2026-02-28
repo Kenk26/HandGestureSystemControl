@@ -1,2 +1,23 @@
-__pycache__/*
-.ipynb_checkpoints
+# Python bytecode and cache
+[cite_start]__pycache__/ [cite: 1]
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+[cite_start].ipynb_checkpoints [cite: 1]
+
+# Environment and Dependencies
+.venv/
+env/
+venv/
+ENV/
+
+# Project Data (Avoid uploading large CSVs or raw landmarks)
+data/landmarks.csv
+
+# Models (Keep your local trained weights private or manage via LFS)
+models/*.h5
+
+# OS generated files
+.DS_Store
+Thumbs.db

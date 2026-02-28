@@ -40,12 +40,12 @@ TRACKING_CONFIDENCE  = 0.5
 
 # ── Camera ────────────────────────────────────────────────────────────────────
 CAMERA_INDEX  = 0
-CAMERA_WIDTH  = 640
-CAMERA_HEIGHT = 480
+CAMERA_WIDTH  = 1280
+CAMERA_HEIGHT = 720
 
 # ── Mouse / Action ────────────────────────────────────────────────────────────
 MOUSE_SMOOTHING  = 5
-MOVE_SENSITIVITY = 0.1    # multiplier for relative palm movement delta
+MOVE_SENSITIVITY = 0.3    # multiplier for relative palm movement delta
 ACTION_COOLDOWN  = 0.8    # seconds between repeated clicks
 SCROLL_AMOUNT    = 30
 SCROLL_THRESHOLD = 0.008  # min y-delta to trigger scroll
@@ -80,7 +80,7 @@ APP_MAPPINGS = {
 }.get(_sys, {'app1': 'notepad', 'app2': 'calc.exe'})
 
 # ── Training ──────────────────────────────────────────────────────────────────
-SAMPLES_PER_GESTURE = 300    # 300 x 6 gestures = 1800 total
+SAMPLES_PER_GESTURE = 300    # 300 x 6 gestures = 1800 total - fast to collect
 TRAINING_EPOCHS     = 100
 BATCH_SIZE          = 32
 TEST_SIZE           = 0.2
@@ -92,7 +92,7 @@ GESTURE_COLORS = {
     'peace'      : (  0, 255,   0),   # green
     'fist'       : (  0,   0, 255),   # red
     'thumb_pinky': (  0, 165, 255),   # orange
-    'okay'       : (  0, 255, 255),   # cyan  ← hold & drag
+    'okay'       : (255,   0, 255),   # purple
     'unknown'    : (160, 160, 160),
 }
 
