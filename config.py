@@ -45,7 +45,7 @@ CAMERA_HEIGHT = 720
 
 # ── Mouse / Action ────────────────────────────────────────────────────────────
 MOUSE_SMOOTHING  = 5
-MOVE_SENSITIVITY = 0.3    # multiplier for relative palm movement delta
+MOVE_SENSITIVITY = 0.1    # multiplier for relative palm movement delta
 ACTION_COOLDOWN  = 0.8    # seconds between repeated clicks
 SCROLL_AMOUNT    = 30
 SCROLL_THRESHOLD = 0.008  # min y-delta to trigger scroll
@@ -56,8 +56,8 @@ GESTURE_STABILITY_REQUIRED = 4   # frames that must agree to confirm gesture
 
 # ── Mini Overlay Window ───────────────────────────────────────────────────────
 SHOW_MINI_WINDOW      = True
-MINI_WIDTH            = 280
-MINI_HEIGHT           = 210
+MINI_WIDTH            = 350
+MINI_HEIGHT           = 196
 MINI_BORDER_COLOR     = (0, 255, 0)    # BGR green
 MINI_BORDER_THICKNESS = 2
 
